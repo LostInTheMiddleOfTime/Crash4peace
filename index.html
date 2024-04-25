@@ -4,31 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crash4peace</title>
-    <style>            
+        <style>            
         @keyframes myani{
             from{
                 visibility: visible;
-            }
-            10%{
-                visibility: visible;
                 transform: translate(70vw,-20vh) rotate(30deg);
+
             }
             to{
-                visibility: visible;
                 transform:  translate(20vw,40vh) rotate(10deg);
             }
         }
         @keyframes myani2{
             from{
-                visibility: hidden;
-            }
-            10%{
-                visibility: hidden;
                 transform: translate(70vw,-20vh) rotate(30deg);
             }
             98%{
                 transform:  translate(20vw,40vh) rotate(10deg);
-                visibility: hidden;
             }
             to{
                 transform:  translate(20vw,40vh) rotate(10deg);
@@ -38,12 +30,12 @@
         @keyframes myani3{
             from{
                 visibility: visible;
-            }
-            10%{
-                visibility: visible;
                 background-image: url(e.png);
             }
-            88%{
+            84%{
+                visibility: visible;
+                background-image: url(e.png);}
+            87%{
                 background-image: url(e2_3.png);
             }
             to{}
@@ -53,13 +45,13 @@
             margin: 0;
         }
         .mtr{
-            animation: myani 2s linear 0.5s 1 normal;
+            animation: myani 2.6s linear 0.5s 1 normal;
             visibility: hidden;
             width: 150px;
             position: absolute;
         }
         .mtr2{
-            animation: myani2 2.05s linear 0.5s 1 normal;
+            animation: myani2 2.65s linear 0.5s 1 normal;
             visibility: hidden;
             width: 150px;
             position: absolute;
@@ -69,7 +61,7 @@
             position: absolute;
             top: 45vh;
             visibility: hidden;
-            animation: myani3 5s linear 0.5s 1 normal;
+            animation: myani3 3.1s linear 0.5s 1 normal;
             background-image: url(e2_3.png);
         }
     </style>
