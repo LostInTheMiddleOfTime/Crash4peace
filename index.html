@@ -6,7 +6,8 @@
     <title>Crash4peace</title>
         <style>            
         @keyframes myani{
-            from{}
+            from{
+                transform: translate(70vw,-20vh) rotate(30deg)}
             15%{
                 visibility: visible;
                 transform: translate(70vw,-20vh) rotate(30deg);
@@ -17,7 +18,8 @@
             }
         }
         @keyframes myani2{
-            from{}
+            from{
+                transform: translate(70vw,-20vh) rotate(30deg)}
             15%{
                 transform: translate(70vw,-20vh) rotate(30deg);
             }
@@ -30,8 +32,7 @@
             }
         }
         @keyframes myani3{
-            from{}
-            15%{
+            from{
                 visibility: visible;
                 background-image: url(e.png);
             }
@@ -48,13 +49,13 @@
             margin: 0;
         }
         .mtr{
-            animation: myani 1.6s linear 0.5s 1 normal;
+            animation: myani 2.1s linear 0.5s 1 normal;
             visibility: hidden;
             width: 150px;
             position: absolute;
         }
         .mtr2{
-            animation: myani2 1.65s linear 0.5s 1 normal;
+            animation: myani2 2.15s linear 0.5s 1 normal;
             visibility: hidden;
             width: 150px;
             position: absolute;
@@ -64,7 +65,7 @@
             position: absolute;
             top: 45vh;
             visibility: hidden;
-            animation: myani3 2.1s linear 0.5s 1 normal;
+            animation: myani3 2.51s linear 0.5s 1 normal;
             background-image: url(e2_3.png);
         }
     </style>
